@@ -1,6 +1,11 @@
 {
   "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier", "prettier/react", "plugin:react-native/all"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:react-native/all"
+  ],
   "plugins": ["prettier"],
   "rules": {
     "no-useless-concat": 0,
@@ -44,7 +49,7 @@
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 100
+        "printWidth": 80
       }
     ]
   },
