@@ -11,6 +11,7 @@
     "no-useless-concat": 0,
     "no-console": "off",
     "import/no-unresolved": false,
+    "import/prefer-default-export": false,
     "react/jsx-filename-extension": [
       1,
       {
